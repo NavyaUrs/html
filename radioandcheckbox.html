@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio check</title>
+</head>
+<body>
+    <form>
+        <label>gender:</label>
+        <input type="radio"name="gender"id="male"> <label for="male">male</label>
+        <input type="radio"name="gender"id="female"> <label for="female">female</label>
+        <input type="radio"name="gender"id="other"> <label for="other">other</label>
+        <hr>
+        <label>Skills</label>
+        <input type="checkbox"><label>java</label>
+        <input type="checkbox"><label>javascript</label>
+        <input type="checkbox"><label>sql</label>
+        <input type="checkbox"><label>mongodb</label><br><br><br><br>
+        <input type="text"><br><br><br>
+        <textarea placeholder="address" cols="40" rows="10"></textarea><br><br><br>
+        <label> select gender:</label>
+        <select>
+            <option> male</option>
+            <option> female</option>
+            <option> other</option>
+        </select><br>
+        <label> select skills:</label>
+        <select multiple>
+            <option> java</option>
+            <option> javascript</option>
+            <option> mongodb</option>
+
+        </select><br><br><br>
+        <!-- ___________________________________________________________________________________________________ -->
+        <!-- option group -->
+        <select multiple>
+            <optgroup label="nonveg">
+                <option> chicken</option>
+                <option>kabab</option>
+                <option>biryani</option>
+            </optgroup>
+            <optgroup label="veg">
+                <option> chapathi</option>
+                <option>dose</option>
+                <option>idly</option>
+            </optgroup>
+        </select>
+        <hr>
+        <input type="text"placeholder="college name" list="colleges">
+        <datalist id="colleges">
+            <option> atme college of engg</option>
+            <option> mit college of engg</option> 
+            <option> mitt college of engg</option>
+            <option> nie college of engg</option>
+            <option> sjce college of engg</option>
+        </datalist>
+
+    </form>
+</body>
+</html>
